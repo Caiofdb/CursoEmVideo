@@ -1,0 +1,10 @@
+q= int(input('Quantos termos da sequência fibonacci você quer vêr: '))
+anterior = 0
+atual = 0
+proximo = 1
+while q>=0:
+    print(atual,' ->', end='')
+    anterior = atual
+    atual=proximo
+    proximo= atual+anterior
+    q-=1
